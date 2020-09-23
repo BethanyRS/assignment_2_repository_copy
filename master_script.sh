@@ -14,6 +14,10 @@ cd  data
 mkdir "extracted_data"
 mkdir "raw_data"
 cd ../
+cd src_main_programs
+mkdir "for_adapted_pahfit_program"
+mkdir "structure_you_get_back"
+cd ../
 mkdir "results"
 cd results
 mkdir "tables"
@@ -44,5 +48,5 @@ mv *.png m31/results/everything_graphic/viewable_figs
 mv *.txt m31/doc_and_project_info
 mv *.dat m31/results/tables
 mv *.reg m31/external_scripts_or_compiled_programs_bin
-mv *.xdr m31/external_scripts_or_compiled_programs_bin
-mv *.pro m31/src_main_programs
+mv *.xdr m31/src_main_programs/structure_you_get_back
+mv *.pro m31/src_main_programs/for_adapted_pahfit_program
