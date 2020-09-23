@@ -84,3 +84,20 @@ mv *.xdr programs/
 mv ._*.png results/graphics
 mv ._*.xdr programs/
 mv ._*.tbl results/tables
+#Fix READMEs
+cd
+cd Desktop/assignment_2/sample
+touch FINAL_README.txt
+echo "This folder contains files with data from M31, M81, NGC0337, and unknown projects" >> FINAL_README.txt
+echo "M31 is the main project in this  folder" >> FINAL_README.txt
+echo "" >> FINAL_README.txt
+echo "M31 data info:" >> FINAL_README.txt
+echo "" >> FINAL_README.txt
+cat README >> FINAL_README.txt
+echo "" >> FINAL_README.txt
+echo "Other M31 file type info:" >> FINAL_README.txt
+echo "" >> FINAL_README.txt
+cat README2 >> FINAL_README.txt
+rm README
+rm README2
+mv /c/Users/reid8/Desktop/assignment_2/sample/FINAL_README.txt /c/Users/reid8/Desktop/assignment_2/sample/README.txt
