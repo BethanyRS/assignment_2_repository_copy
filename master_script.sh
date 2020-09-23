@@ -14,7 +14,11 @@ mkdir "src_main_programs"
 cd  data
 mkdir "extracted_data"
 mkdir "raw_data"
+cd ../
 mkdir "results"
+cd results
+mkdir "tables"
+mkdir "everything_graphic"
 #Sort non-m31 files into project folders
 cd
 cd Desktop/assignment_2/sample
@@ -29,3 +33,4 @@ mv nucFLUX unknown_project_files
 mv nuclear_spectra.ipynb unknown_project_files
 mv nucUNC unknown_project_files
 mv pahfit_sile.pro unknown_project_files #end of unknown files
+#Sort m31 files
