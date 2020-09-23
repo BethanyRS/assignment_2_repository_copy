@@ -69,3 +69,18 @@ mv *.pro m31/src_main_programs/for_adapted_pahfit_program
 cd
 cd Desktop/assignment_2/sample/m31/results/tables
 mv m81_smith2010.dat /c/Users/reid8/Desktop/assignment_2/sample/m81/created_tables/m81_smith2010.dat
+#Wrong folder
+cd
+cd Desktop/assignment_2/sample/Wrong
+mkdir "results"
+mkdir "programs"
+cd results
+mkdir "tables"
+mkdir "graphics"
+cd ../
+mv *.png results/graphics
+mv *.tbl results/tables
+mv *.xdr programs/
+mv ._*.png results/graphics
+mv ._*.xdr programs/
+mv ._*.tbl results/tables
