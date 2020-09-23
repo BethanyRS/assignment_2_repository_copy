@@ -50,3 +50,7 @@ mv *.dat m31/results/tables
 mv *.reg m31/external_scripts_or_compiled_programs_bin
 mv *.xdr m31/src_main_programs/structure_you_get_back
 mv *.pro m31/src_main_programs/for_adapted_pahfit_program
+#Move sneaky m81 folder in m31's tables folder
+cd
+cd Desktop/assignment_2/sample/m31/results/tables
+mv m81_smith2010.dat /c/Users/reid8/Desktop/assignment_2/sample/m81/m81_smith2010.dat
