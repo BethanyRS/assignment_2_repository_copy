@@ -6,7 +6,7 @@ mkdir "m81"
 mkdir "ngc0337"
 mkdir "unknown_project_files"
 cd  m31
-mkdir "external_scripts_or_compiled_programs"
+mkdir "external_scripts_or_compiled_programs_bin"
 mkdir "data"
 mkdir "doc_and_project_info"
 mkdir "src_main_programs"
@@ -26,7 +26,7 @@ cd
 cd Desktop/assignment_2/sample
 mv M81* m81/
 mv *ngc0337* ngc0337/ #don't worry about directory warning. It will only move the files
-mv broadband_phot unknown_project_files #start of unknown files
+mv broadband_pho* unknown_project_files #start of unknown files
 mv els_sfr*.reg unknown_project_files
 mv ia_session.log unknown_project_files
 mv iras08572_smith2010.dat unknown_project_files
@@ -37,7 +37,12 @@ mv nucUNC unknown_project_files
 mv pahfit_sile.pro unknown_project_files #end of unknown files
 #Sort m31 files
 mv m31nuc*.fits m31/data/raw_data 
-mv m31nuc*.tbl m31/data/extracted_data
+mv m31*.tbl m31/data/extracted_data
 mv *.eps m31/results/everything_graphic/related_to_postscript
 mv *.ps m31/results/everything_graphic/related_to_postscript
 mv *.png m31/results/everything_graphic/viewable_figs
+mv *.txt m31/doc_and_project_info
+mv *.dat m31/results/tables
+mv *.reg m31/external_scripts_or_compiled_programs_bin
+mv *.xdr m31/external_scripts_or_compiled_programs_bin
+mv *.pro m31/src_main_programs
