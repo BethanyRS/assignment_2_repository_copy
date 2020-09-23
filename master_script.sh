@@ -1,3 +1,4 @@
+#Make folders
 cd
 cd Desktop/assignment_2/sample
 mkdir "m31"
@@ -14,3 +15,8 @@ cd  data
 mkdir "extracted_data"
 mkdir "raw_data"
 mkdir "results"
+#Sort into project folders
+cd
+cd Desktop/assignment_2/sample
+mv M81* m81/
+mv *ngc0337* ngc0337/ #don't worry about directory warning. It will only move the files
