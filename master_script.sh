@@ -101,3 +101,12 @@ cat README2 >> FINAL_README.txt
 rm README
 rm README2
 mv /c/Users/reid8/Desktop/assignment_2/sample/FINAL_README.txt /c/Users/reid8/Desktop/assignment_2/sample/README.txt
+#Add Citation file
+touch CITATION.txt
+echo "I don't know who created each file so this is more like a credit file than a file with a proper citation" >> CITATION.txt
+echo "This project was created by Prof. Pauline Barmby" >> CITATION.txt
+echo "The script to organize the files was created by Bethany Schefter" >> CITATION.txt
+echo "" >> CITATION.txt
+echo "Here is an example citation format that I found online:" >> CITATION.txt
+echo "" >> CITATION.txt
+echo "Last Name, First Initial, Date of Creation. Title of Project. Publisher, Web Address." >> CITATION.txt
