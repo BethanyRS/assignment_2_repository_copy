@@ -9,7 +9,6 @@ cd  m31
 mkdir "external_scripts_or_compiled_programs"
 mkdir "data"
 mkdir "doc_and_project_info"
-mkdir "everything_graphic_results"
 mkdir "src_main_programs"
 cd  data
 mkdir "extracted_data"
@@ -19,6 +18,9 @@ mkdir "results"
 cd results
 mkdir "tables"
 mkdir "everything_graphic"
+cd everything_graphic
+mkdir "viewable_figs"
+mkdir "related_to_postscript"
 #Sort non-m31 files into project folders
 cd
 cd Desktop/assignment_2/sample
@@ -34,3 +36,8 @@ mv nuclear_spectra.ipynb unknown_project_files
 mv nucUNC unknown_project_files
 mv pahfit_sile.pro unknown_project_files #end of unknown files
 #Sort m31 files
+mv m31nuc*.fits m31/data/raw_data 
+mv m31nuc*.tbl m31/data/extracted_data
+mv *.eps m31/results/everything_graphic/related_to_postscript
+mv *.ps m31/results/everything_graphic/related_to_postscript
+mv *.png m31/results/everything_graphic/viewable_figs
